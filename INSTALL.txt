@@ -1,0 +1,11 @@
+Peer-to-Peer Java Chat Application
+-------------------------------------
+Please note that pre-compiled binaries are provided in the bin/ directory if desired.
+
+Compilation/Running Instructions: Linux/DOS.
+1)To compile: Within the source (src/)directory, run "javac *.java".
+2)Once compiled, or if using binary version: To execute the server, just run "java RegServer".
+3) To launch a peer, run "java ChatClient $HOSTNAME $PORT $HANDLE"
+Where: $HOSTNAME and $PORT specify the hostname/ip and port of the registration server, and $HANDLE represents this clients handle/nickname on the server.
+
+
